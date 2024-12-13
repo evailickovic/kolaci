@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+	
+    text-align: center;
+    position:static;
+    top: 0;
+    left: 0;
+}
+p{
+
+	display:inline-block;
+	float: none;
+	background-color: ivory;
+	   
+}
+
+body{
+	letter-spacing: 1.5px;
+	background-image:url("media/ONH35S0.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+}
+ol{
+	
+
+	display:inline-block;
+	float: none;
+	background-color: ivory;
+	text-align: left;
+}
+
+img{
+	width: 200px;
+	height: auto;
+	display: block;
+	margin:auto;
+	border:10px solid green;
+	padding: 10px;
+}
+iframe{
+	width: 500px;
+	height:800px;
+	display: block;
+	margin:auto;
+	
+}
+video{
+	border: 4px dotted rgba(212,0,0,1.00);
+	width: 500px;
+	margin: auto;
+	display: block;
+}
+audio{
+	padding: 30px;
+	background-color:ivory;
+	margin: auto;
+	display:block;
+	
+}
+embed{
+
+	margin: auto;
+	display: block;
+	border: 4px thick black;
+}
+h2{
+	
+    text-align: center;
+    position:static;
+    top: 0;
+    left: 0;
+}
+form{
+	background-color:ivory;
+	margin: auto;
+	display:block;
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    padding: 10px;
+    font-size: 24px; 
+  }
+
+  p {
+    padding: 20px;
+    font-size: 16px;
+    border: 2px solid black; 
+  }
+
+  body {
+    font-size: 14px; 
+    letter-spacing: 1px; 
+  }
+
+  ol {
+    padding: 20px;
+    font-size: 16px; 
+    border: 1px solid black;
+  }
+
+  div.list {
+    text-align: left;
+  }
+
+ 
+
+  iframe {
+    width: 500px;
+    height:800px;
+  }
+
+  video {
+    width: 100%; 
+    height: auto; 
+  }
+
+  audio {
+    width: 100%; 
+	  padding: 20px;}
+
+  embed {
+    width: 100%; 
+    margin: 10px; 
+  }
+
+  h2 {
+    padding: 10px;
+    font-size: 20px; 
+  }
+
+  form {
+    padding: 20px; 
+    width: 90%; 
+  }
+}
+
+
